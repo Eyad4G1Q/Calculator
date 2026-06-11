@@ -22,7 +22,7 @@ body{
 }
 #input{
     width :400px;
-    height: 128px;
+    height: 64px;
     background-color: grey;
     border:solid 1px white;
     color:white;
@@ -51,4 +51,21 @@ body{
 }
 #operate:hover{
     background-color: orange;
+}
+.para{
+    font-size: 32px;
+    font-weight: 400;
+    height: 48px;
+    width:auto;
+    color:white;
+    
+}
+.memory{
+    font-weight: 600;
+    font-size: 14px;
+    color:white;
+    height: 16px;
+    width: auto;
+    align-self: flex-start;
+    text-align: right;
 }
